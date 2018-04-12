@@ -1,0 +1,22 @@
+{
+  "name": "LKUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of LKUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhulinhua/LKUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhulinhua": "cnzlh@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zhulinhua/LKUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LKUIKit/Classes/**/*"
+}
