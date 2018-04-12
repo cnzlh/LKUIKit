@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LKUIKit_Example' do
+  pod 'LKUIKit', :path => '../'
+
+  target 'LKUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
