@@ -14,6 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		D705CB68209C3F23003747CB /* RefreshCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D705CB66209C3F23003747CB /* RefreshCell.xib */; };
+		D705CB69209C3F23003747CB /* RefreshCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB67209C3F23003747CB /* RefreshCell.swift */; };
 		E0A0F543B686B77EEA26D6FF /* Pods_LKUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2862087C07466E35915D5141 /* Pods_LKUIKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		65F07AEF7C2D8804390CE0A9 /* Pods-LKUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKUIKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKUIKit_Example/Pods-LKUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CEA2D64DADF42D6AA9356C58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D705CB66209C3F23003747CB /* RefreshCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshCell.xib; sourceTree = "<group>"; };
+		D705CB67209C3F23003747CB /* RefreshCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshCell.swift; sourceTree = "<group>"; };
 		F094508D219B53152E0CDEDB /* Pods-LKUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKUIKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKUIKit_Example/Pods-LKUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB501DFD1F0F19F24A72CA57 /* Pods-LKUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKUIKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKUIKit_Tests/Pods-LKUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC2064C275A0C7DF91A709D2 /* Pods-LKUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKUIKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKUIKit_Tests/Pods-LKUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				D705CB65209C3F23003747CB /* Cells */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -148,6 +153,15 @@
 				CEA2D64DADF42D6AA9356C58 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D705CB65209C3F23003747CB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D705CB66209C3F23003747CB /* RefreshCell.xib */,
+				D705CB67209C3F23003747CB /* RefreshCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		F4E7164723599A11B6B859EB /* Frameworks */ = {
@@ -253,6 +267,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				D705CB68209C3F23003747CB /* RefreshCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				D705CB69209C3F23003747CB /* RefreshCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,30 @@
 		AD68E44D19AB1F17CEFDF44B59C7E919 /* Pods-LKUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F899329BC7422780CCFB591938F3810 /* Pods-LKUIKit_Example-dummy.m */; };
 		BD03480BA65D09089D924778B3586059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D19352FDAD8892096F769DF5BC28528D /* LKUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6865CFB175A207FA53D35BEE01D1D15 /* LKUIKit-dummy.m */; };
+		D705CB4F209C39E1003747CB /* CRRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB33209C39E0003747CB /* CRRefreshProtocol.swift */; };
+		D705CB50209C39E1003747CB /* CRRefreshBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB34209C39E0003747CB /* CRRefreshBundle.swift */; };
+		D705CB51209C39E1003747CB /* CRRefreshAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB35209C39E1003747CB /* CRRefreshAnimator.swift */; };
+		D705CB52209C39E1003747CB /* CRRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB36209C39E1003747CB /* CRRefreshExtension.swift */; };
+		D705CB53209C39E1003747CB /* CRRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB37209C39E1003747CB /* CRRefreshHeaderView.swift */; };
+		D705CB54209C39E1003747CB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB38209C39E1003747CB /* UIColorExtension.swift */; };
+		D705CB55209C39E1003747CB /* CRRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB39209C39E1003747CB /* CRRefreshComponent.swift */; };
+		D705CB56209C39E1003747CB /* CRRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB3A209C39E1003747CB /* CRRefreshFooterView.swift */; };
+		D705CB57209C39E1003747CB /* RamotionBounceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB3D209C39E1003747CB /* RamotionBounceLayer.swift */; };
+		D705CB58209C39E1003747CB /* RamotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB3E209C39E1003747CB /* RamotionAnimator.swift */; };
+		D705CB59209C39E1003747CB /* RamotionWaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB3F209C39E1003747CB /* RamotionWaveLayer.swift */; };
+		D705CB5A209C39E1003747CB /* RamotionBallLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB40209C39E1003747CB /* RamotionBallLayer.swift */; };
+		D705CB5B209C39E1003747CB /* SlackLoadingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB42209C39E1003747CB /* SlackLoadingAnimator.swift */; };
+		D705CB5C209C39E1003747CB /* WCLLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB43209C39E1003747CB /* WCLLoadingView.swift */; };
+		D705CB5D209C39E1003747CB /* FastAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB45209C39E1003747CB /* FastAnimator.swift */; };
+		D705CB5E209C39E1003747CB /* FastLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB46209C39E1003747CB /* FastLayer.swift */; };
+		D705CB5F209C39E1003747CB /* FastArrowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB47209C39E1003747CB /* FastArrowLayer.swift */; };
+		D705CB60209C39E1003747CB /* FastCheckLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB48209C39E1003747CB /* FastCheckLayer.swift */; };
+		D705CB61209C39E1003747CB /* FastCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB49209C39E1003747CB /* FastCircleLayer.swift */; };
+		D705CB62209C39E1003747CB /* NormalHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB4C209C39E1003747CB /* NormalHeaderAnimator.swift */; };
+		D705CB63209C39E1003747CB /* NormalFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705CB4D209C39E1003747CB /* NormalFooterAnimator.swift */; };
 		D75DA99A207F082700D50A79 /* LKToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75DA999207F082700D50A79 /* LKToast.swift */; };
+		D778D56420C6730D00CB090E /* NormalHeader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D778D56120C66FBF00CB090E /* NormalHeader.bundle */; };
+		D778D56520C6731400CB090E /* NormalFooter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D778D56220C66FDA00CB090E /* NormalFooter.bundle */; };
 		E0C5BA1A13928497E90BCB8FBC9D9992 /* Pods-LKUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7261D8E6B0166C000C1D31BD292BA3 /* Pods-LKUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E70EA7237024BFBE5F75E39A3F8E6FAA /* Pods-LKUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD6677AACB3DCBA5D0A4F8DFA4477C9 /* Pods-LKUIKit_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -55,7 +78,30 @@
 		C6F95C00BD540C5BA8065B85A4ED68D2 /* LKUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKUIKit-umbrella.h"; sourceTree = "<group>"; };
 		C9E3F51E5C57471C2D072BFAB17B4F62 /* Pods-LKUIKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKUIKit_Example-resources.sh"; sourceTree = "<group>"; };
 		D2348E35FB04A9D615B0CE1662DE64CD /* Pods-LKUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D705CB33209C39E0003747CB /* CRRefreshProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshProtocol.swift; sourceTree = "<group>"; };
+		D705CB34209C39E0003747CB /* CRRefreshBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshBundle.swift; sourceTree = "<group>"; };
+		D705CB35209C39E1003747CB /* CRRefreshAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshAnimator.swift; sourceTree = "<group>"; };
+		D705CB36209C39E1003747CB /* CRRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshExtension.swift; sourceTree = "<group>"; };
+		D705CB37209C39E1003747CB /* CRRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshHeaderView.swift; sourceTree = "<group>"; };
+		D705CB38209C39E1003747CB /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		D705CB39209C39E1003747CB /* CRRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshComponent.swift; sourceTree = "<group>"; };
+		D705CB3A209C39E1003747CB /* CRRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRRefreshFooterView.swift; sourceTree = "<group>"; };
+		D705CB3D209C39E1003747CB /* RamotionBounceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBounceLayer.swift; sourceTree = "<group>"; };
+		D705CB3E209C39E1003747CB /* RamotionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionAnimator.swift; sourceTree = "<group>"; };
+		D705CB3F209C39E1003747CB /* RamotionWaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionWaveLayer.swift; sourceTree = "<group>"; };
+		D705CB40209C39E1003747CB /* RamotionBallLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamotionBallLayer.swift; sourceTree = "<group>"; };
+		D705CB42209C39E1003747CB /* SlackLoadingAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackLoadingAnimator.swift; sourceTree = "<group>"; };
+		D705CB43209C39E1003747CB /* WCLLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLLoadingView.swift; sourceTree = "<group>"; };
+		D705CB45209C39E1003747CB /* FastAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastAnimator.swift; sourceTree = "<group>"; };
+		D705CB46209C39E1003747CB /* FastLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastLayer.swift; sourceTree = "<group>"; };
+		D705CB47209C39E1003747CB /* FastArrowLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastArrowLayer.swift; sourceTree = "<group>"; };
+		D705CB48209C39E1003747CB /* FastCheckLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCheckLayer.swift; sourceTree = "<group>"; };
+		D705CB49209C39E1003747CB /* FastCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCircleLayer.swift; sourceTree = "<group>"; };
+		D705CB4C209C39E1003747CB /* NormalHeaderAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalHeaderAnimator.swift; sourceTree = "<group>"; };
+		D705CB4D209C39E1003747CB /* NormalFooterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalFooterAnimator.swift; sourceTree = "<group>"; };
 		D75DA999207F082700D50A79 /* LKToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKToast.swift; sourceTree = "<group>"; };
+		D778D56120C66FBF00CB090E /* NormalHeader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalHeader.bundle; sourceTree = "<group>"; };
+		D778D56220C66FDA00CB090E /* NormalFooter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NormalFooter.bundle; sourceTree = "<group>"; };
 		DCB784FD3426ABAD2CF10AEC1F96CC16 /* Pods-LKUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E93D8E2E083B2FC9C31B2EFF236213B5 /* Pods-LKUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EA6842D291D2FA4C4ED14AE447997BF0 /* Pods-LKUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -128,6 +174,7 @@
 		9CE0D8CC8402EC24881FBDB886587EDD /* LKUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D705CB1A209BF948003747CB /* CRRefresh */,
 				D75DA998207F081700D50A79 /* LKToast */,
 				854AB295774F6128E36246E4EF6E9394 /* Support Files */,
 			);
@@ -194,6 +241,77 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D705CB1A209BF948003747CB /* CRRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				D705CB3B209C39E1003747CB /* Animators */,
+				D705CB35209C39E1003747CB /* CRRefreshAnimator.swift */,
+				D705CB34209C39E0003747CB /* CRRefreshBundle.swift */,
+				D705CB39209C39E1003747CB /* CRRefreshComponent.swift */,
+				D705CB36209C39E1003747CB /* CRRefreshExtension.swift */,
+				D705CB3A209C39E1003747CB /* CRRefreshFooterView.swift */,
+				D705CB37209C39E1003747CB /* CRRefreshHeaderView.swift */,
+				D705CB33209C39E0003747CB /* CRRefreshProtocol.swift */,
+				D705CB38209C39E1003747CB /* UIColorExtension.swift */,
+			);
+			name = CRRefresh;
+			path = LKUIKit/Classes/CRRefresh;
+			sourceTree = "<group>";
+		};
+		D705CB3B209C39E1003747CB /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				D705CB3C209C39E1003747CB /* RamotionAnimator */,
+				D705CB41209C39E1003747CB /* SlackLoadingAnimator */,
+				D705CB44209C39E1003747CB /* FastAnimator */,
+				D705CB4A209C39E1003747CB /* NormalAnimator */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		D705CB3C209C39E1003747CB /* RamotionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				D705CB3D209C39E1003747CB /* RamotionBounceLayer.swift */,
+				D705CB3E209C39E1003747CB /* RamotionAnimator.swift */,
+				D705CB3F209C39E1003747CB /* RamotionWaveLayer.swift */,
+				D705CB40209C39E1003747CB /* RamotionBallLayer.swift */,
+			);
+			path = RamotionAnimator;
+			sourceTree = "<group>";
+		};
+		D705CB41209C39E1003747CB /* SlackLoadingAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				D705CB42209C39E1003747CB /* SlackLoadingAnimator.swift */,
+				D705CB43209C39E1003747CB /* WCLLoadingView.swift */,
+			);
+			path = SlackLoadingAnimator;
+			sourceTree = "<group>";
+		};
+		D705CB44209C39E1003747CB /* FastAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				D705CB45209C39E1003747CB /* FastAnimator.swift */,
+				D705CB46209C39E1003747CB /* FastLayer.swift */,
+				D705CB47209C39E1003747CB /* FastArrowLayer.swift */,
+				D705CB48209C39E1003747CB /* FastCheckLayer.swift */,
+				D705CB49209C39E1003747CB /* FastCircleLayer.swift */,
+			);
+			path = FastAnimator;
+			sourceTree = "<group>";
+		};
+		D705CB4A209C39E1003747CB /* NormalAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				D778D56220C66FDA00CB090E /* NormalFooter.bundle */,
+				D778D56120C66FBF00CB090E /* NormalHeader.bundle */,
+				D705CB4C209C39E1003747CB /* NormalHeaderAnimator.swift */,
+				D705CB4D209C39E1003747CB /* NormalFooterAnimator.swift */,
+			);
+			path = NormalAnimator;
 			sourceTree = "<group>";
 		};
 		D72F8BA8571D6C4171583B9051FAEC9C /* Products */ = {
@@ -270,6 +388,7 @@
 				17C5DC73494B13709CF98EB7FFF56291 /* Sources */,
 				80DA6C169D036B8DD5A8D1BD442479D7 /* Frameworks */,
 				C88221D89FEEE50D537F2DDD08BF1F63 /* Headers */,
+				D778D56320C6730100CB090E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -312,6 +431,9 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
+				Base,
+				"zh-Hant",
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = D72F8BA8571D6C4171583B9051FAEC9C /* Products */;
@@ -324,6 +446,18 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D778D56320C6730100CB090E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D778D56520C6731400CB090E /* NormalFooter.bundle in Resources */,
+				D778D56420C6730D00CB090E /* NormalHeader.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		037135BCB11538883D729D374AED5FFF /* Sources */ = {
@@ -338,8 +472,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D705CB60209C39E1003747CB /* FastCheckLayer.swift in Sources */,
+				D705CB51209C39E1003747CB /* CRRefreshAnimator.swift in Sources */,
+				D705CB5E209C39E1003747CB /* FastLayer.swift in Sources */,
+				D705CB55209C39E1003747CB /* CRRefreshComponent.swift in Sources */,
 				D19352FDAD8892096F769DF5BC28528D /* LKUIKit-dummy.m in Sources */,
+				D705CB5A209C39E1003747CB /* RamotionBallLayer.swift in Sources */,
+				D705CB57209C39E1003747CB /* RamotionBounceLayer.swift in Sources */,
 				D75DA99A207F082700D50A79 /* LKToast.swift in Sources */,
+				D705CB58209C39E1003747CB /* RamotionAnimator.swift in Sources */,
+				D705CB63209C39E1003747CB /* NormalFooterAnimator.swift in Sources */,
+				D705CB61209C39E1003747CB /* FastCircleLayer.swift in Sources */,
+				D705CB5D209C39E1003747CB /* FastAnimator.swift in Sources */,
+				D705CB5F209C39E1003747CB /* FastArrowLayer.swift in Sources */,
+				D705CB54209C39E1003747CB /* UIColorExtension.swift in Sources */,
+				D705CB50209C39E1003747CB /* CRRefreshBundle.swift in Sources */,
+				D705CB52209C39E1003747CB /* CRRefreshExtension.swift in Sources */,
+				D705CB53209C39E1003747CB /* CRRefreshHeaderView.swift in Sources */,
+				D705CB56209C39E1003747CB /* CRRefreshFooterView.swift in Sources */,
+				D705CB59209C39E1003747CB /* RamotionWaveLayer.swift in Sources */,
+				D705CB5B209C39E1003747CB /* SlackLoadingAnimator.swift in Sources */,
+				D705CB5C209C39E1003747CB /* WCLLoadingView.swift in Sources */,
+				D705CB62209C39E1003747CB /* NormalHeaderAnimator.swift in Sources */,
+				D705CB4F209C39E1003747CB /* CRRefreshProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
