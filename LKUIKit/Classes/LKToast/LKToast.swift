@@ -721,10 +721,10 @@ public class ToastManager {
     /**
      Sets the default position. Used for the `makeToast` and
      `showToast` methods that don't require an explicit position.
-     Default is `ToastPosition.Bottom`.
+     Default is `ToastPosition.center`.
      
      */
-    public var position: ToastPosition = .bottom
+    public var position: ToastPosition = .center
     
 }
 

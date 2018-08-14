@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
     s.frameworks          = 'UIKit', 'QuartzCore'
     s.platform            = :ios
     s.ios.deployment_target = '8.0'
+    s.dependency 'MBProgressHUD'
 end

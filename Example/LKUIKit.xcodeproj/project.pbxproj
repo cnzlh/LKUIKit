@@ -33,7 +33,7 @@
 		27A60CA8CBA8AB30A7F8476C /* Pods_LKUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2862087C07466E35915D5141 /* Pods_LKUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC54EC4ACD4FA1CE7CD63F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3F6910590163AE6973C03FAA /* LKUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKUIKit.podspec; path = ../LKUIKit.podspec; sourceTree = "<group>"; };
+		3F6910590163AE6973C03FAA /* LKUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKUIKit.podspec; path = ../LKUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* LKUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -185,7 +185,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				ABC5058B99BA43A6DFD021CF /* [CP] Embed Pods Frameworks */,
-				C54C87E92878BCE23AF6E7F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,8 +203,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				96E34F04617B1F78F17982CC /* [CP] Embed Pods Frameworks */,
-				0A01EED515E310AE66FF4D2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,21 +278,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A01EED515E310AE66FF4D2C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKUIKit_Tests/Pods-LKUIKit_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7B7E110B27638CBE76192C84 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,21 +296,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		96E34F04617B1F78F17982CC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKUIKit_Tests/Pods-LKUIKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		ABC5058B99BA43A6DFD021CF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,29 +304,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LKUIKit_Example/Pods-LKUIKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LKUIKit/LKUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKUIKit_Example/Pods-LKUIKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C54C87E92878BCE23AF6E7F2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKUIKit_Example/Pods-LKUIKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CC309D3726D63BDF0C84BDF6 /* [CP] Check Pods Manifest.lock */ = {

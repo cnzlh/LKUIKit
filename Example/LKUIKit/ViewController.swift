@@ -8,6 +8,7 @@
 
 import UIKit
 import LKUIKit
+import MBProgressHUD
 
 class ViewController: UIViewController {
 
@@ -35,6 +36,11 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        // MBProgressHUD.showWait("请稍等")
+//        MBProgressHUD.showInfo("这是普通提示消息")
+        
+        self.view.makeToast("didSelectRowAt at \(indexPath)")
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -57,4 +63,5 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RefreshCell", for: indexPath) as! RefreshCell
         return cell
     }
+    
 }
